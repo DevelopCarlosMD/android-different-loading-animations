@@ -25,7 +25,7 @@ My sole purpose of writing this article was to show how you can implement those 
 
 <p>
 The Android framework provides two animation systems: [Property Animation](http://developer.android.com/guide/topics/graphics/prop-animation.html) (introduced in Android 3.0) and 
-	[View animation](http://developer.android.com/guide/topics/graphics/prop-animation.html#q=view animation). Both animation systems are viable options, but the property animation system, in general, is the preferred method to use,because it is more flexible and offers more features.
+    [View animation](http://developer.android.com/guide/topics/graphics/prop-animation.html#q=view animation). Both animation systems are viable options, but the property animation system, in general, is the preferred method to use,because it is more flexible and offers more features.
     
 </p>    
 
@@ -100,14 +100,15 @@ waveOneAnimator.addListener(new AnimatorListener() {
 
 * How to run multiple animation's together or independently.
 
-    <p> a. To animate sequentially : </p>
+a. To animate sequentially :
 
 ```java
         AnimatorSet animatorSet1 = new AnimatorSet();
 		animatorSet1.playSequentially(valueAnimatorOne, valueAnimatorTwo, valueAnimatorThree); 
 		animatorSet1.start();
 ```
-    <br/><p> b. To animate all animation at same time.</p>
+
+b. To animate all animation at same time.
 
 
 ```java
