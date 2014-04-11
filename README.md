@@ -1,7 +1,7 @@
-DifferentLoadingAnimations
+Loading animations
 ==========================
 
-Different types of loading animations.
+different types of loading animations.
 
 ===================================
 <br>
