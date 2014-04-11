@@ -98,18 +98,15 @@ waveOneAnimator.addListener(new AnimatorListener() {
 
 <br />
 
-How to run multiple animation's together or independently.
-==========================
+* How to run multiple animation's together or independently.
 
-<p> a. To animate sequentially : </p>
+    <p> a. To animate sequentially : </p>
 
 ```java
         AnimatorSet animatorSet1 = new AnimatorSet();
 		animatorSet1.playSequentially(valueAnimatorOne, valueAnimatorTwo, valueAnimatorThree); 
 		animatorSet1.start();
 ```
-
-<br />
     <p> b. To animate all animation at same time.</p>
 
 
