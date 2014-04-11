@@ -107,7 +107,7 @@ waveOneAnimator.addListener(new AnimatorListener() {
 		animatorSet1.playSequentially(valueAnimatorOne, valueAnimatorTwo, valueAnimatorThree); 
 		animatorSet1.start();
 ```
-    <p> b. To animate all animation at same time.</p>
+    <br/><p> b. To animate all animation at same time.</p>
 
 
 ```java
